@@ -71,5 +71,20 @@ h2{
     margin: 0;
     padding: 0;
     background-color: khaki;
-    height: 60vh;
+    height: 30vh;
+}
+h3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    text-align: center;
 }
