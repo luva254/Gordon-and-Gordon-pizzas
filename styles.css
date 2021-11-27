@@ -88,3 +88,20 @@ p{
     margin-top: 90px;
     text-align: center;
 }
+
+/*services section*/
+#services{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(190, 148, 70);
+    height: 40vh;
+}
+h4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:30px ;
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
