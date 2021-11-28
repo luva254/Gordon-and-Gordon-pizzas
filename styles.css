@@ -53,15 +53,19 @@ h1{
     justify-content: center;
     font-family: 'Roboto',sans-serif;
     top: 200px;
+    /* align-items: center; */
     font-size: 40px;
     font-weight: normal;
     color: ivory;
+    left: 20rem;
+    
 
 }
 h2{
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 240px;
+    top: 260px;
     color: ivory;
 }
 
@@ -83,9 +87,10 @@ h3{
     text-transform: uppercase;
 }
 p{
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 90px;
+    top: 5rem;
     text-align: center;
 }
 
@@ -249,4 +254,24 @@ form{
     color: white;
     height: 3rem;
     font-size: 15px;
+}
+@media screen and(max-width:900px) and(min-width:600px) {
+    nav{
+        padding: 0px 50px;
+    }
+}
+@media screen and(max-width:360px){
+#home{
+    height: 30vh;
+}
+h1{
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-size: 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
 }
