@@ -198,13 +198,16 @@ section-2{
     right: 165px;
     top: 60px;
 }
-p3{
-    position: relative;
-    margin-left: 390px;
-    top: 30px;
-}
+
 .f1{
     margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+p4{
+    position: relative;
+    /* margin-left: 390px; */
+    top: 30px;
     justify-content: center;
     display: flex;
 }
