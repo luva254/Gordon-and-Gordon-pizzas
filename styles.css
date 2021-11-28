@@ -112,7 +112,7 @@ h4{
     background: rgba(0, 0, 0, 0.10);
     height: 300px;
     margin: 20px auto;
-    display: flex;
+    display: flex; 
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
     flex-direction: row;
     cursor: pointer;
@@ -153,4 +153,58 @@ p1{
 } 
 .box:hover .text{
     opacity:1;
+}
+#pizza{
+    background-color: rgb(207, 155, 155);
+    height: 70vh;
+}
+h5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+p2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+section-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    /* width: 20px; */
+    /* background-color: rgb(133, 68, 68); */
+    left: 30px;
+}
+#lg{
+    margin-left: 30px;
+    padding: 0;
+}
+#sm{
+    margin-right: 30px;
+    padding: 0;
+}
+#md{
+    padding: 0;
+}
+
+section-2{
+    position: relative;
+    right: 165px;
+    top: 60px;
+}
+p3{
+    position: relative;
+    margin-left: 390px;
+    top: 30px;
+}
+.f1{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
 }
