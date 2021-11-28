@@ -201,3 +201,21 @@ p4{
     justify-content: center;
     display: flex;
 }
+form{
+    margin: 30px;
+}
+#md{
+    margin-right: 20px;
+}
+#lg{
+    margin-left: 30px;
+}
+#crk{
+    margin-right: 30px;
+}
+#stf{
+    margin-right: 20px;
+}
+#thn{
+    margin-left: 30px;
+}
