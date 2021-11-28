@@ -37,6 +37,11 @@ nav ul li a{
 nav ul .active{
     color: #000000;
 }
+.checkbtn{
+    color: #fff;
+    font-size: 25px;
+    float: right;
+}
 /*home section*/
 #home{
     margin: 0;
