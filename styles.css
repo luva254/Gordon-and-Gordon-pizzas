@@ -234,6 +234,11 @@ form{
 #br{
     margin-right: 20px;
 }
-#btn{
-    margin-left: 870px;
+
+#cart{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
