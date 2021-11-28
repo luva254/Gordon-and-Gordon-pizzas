@@ -34,7 +34,9 @@ nav ul li a{
     text-transform: uppercase;
     padding: 0px 20px;
 }
-
+nav ul .active{
+    color: #000000;
+}
 /*home section*/
 #home{
     margin: 0;
@@ -57,7 +59,7 @@ h1{
     font-size: 40px;
     font-weight: normal;
     color: ivory;
-    left: 20rem;
+    left: 25rem;
     
 
 }
@@ -260,7 +262,7 @@ form{
         padding: 0px 50px;
     }
 }
-@media screen and(max-width:360px){
+@media screen and(max-width:425px){
 #home{
     height: 30vh;
 }
@@ -271,6 +273,15 @@ h1{
     justify-content: center;
     top: 70px;
     font-size: 5px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    font-size: 2px;
     font-weight: normal;
     text-transform: uppercase;
 }
