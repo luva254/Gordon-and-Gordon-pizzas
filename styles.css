@@ -50,7 +50,7 @@ nav ul .active{
 #check{
     display: none;
 }
-@media screen and(max-width:990px)and (min-width:660px) {
+@media screen and(max-width:990px)and (min-width:660) {
     nav{
         padding: 0px 20px;
     }
@@ -184,7 +184,7 @@ p1{
 }
 #pizza{
     background-color: rgb(207, 155, 155);
-    height: 70vh;
+    height: 100vh;
 }
 h5{
     position: relative;
@@ -268,6 +268,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .btn{
