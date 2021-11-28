@@ -242,3 +242,11 @@ form{
     align-items: center;
     
 }
+.btn{
+    width: 7rem;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    font-size: 15px;
+}
