@@ -26,9 +26,9 @@ if(pizzaSize=='small'){
 else if(pizzaSize=='medium'){
     price1=600
 }
-else(price=900)
+else(price1=900)
 
-if(pizzaCrust=='Stuffed'){
+if(pizzaCrust=='stuffed'){
     price2=100
 }
 else if(pizzaCrust=='thin'){
@@ -37,7 +37,8 @@ else if(pizzaCrust=='thin'){
 else if(pizzaCrust=='thick'){
     price2=250
 }
-else(price=180)
+else(price2=180)
+
 if(pizzaTopping=='brocolli'){
     price3=150
 }
@@ -47,9 +48,10 @@ else if(pizzaTopping=='sausage and pancetta'){
 else if(pizzaTopping=='mushroom'){
     price3=100
 }
-else(price=260)
-var pizzaPrices=(price1+price2+price3)*numberOfPizzas
-alert('Your total price is' + pizzaPrices)
+
+else(price3=260)
+var pizzaPrices=(price3+price3+price3)*numberOfPizzas
+alert('Your total price is ' + pizzaPrices)
 }
 
 
