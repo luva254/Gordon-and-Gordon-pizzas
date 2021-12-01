@@ -74,16 +74,19 @@
         </div>
         </div>
         <div id="pizza">
-        <h5>Pizza Section</h5>
-        <p2>In this section you can either select a pizza with either a stuffed,cracked,flat,thin <br>or a cheeze crust depending on the size you
+            <form method="post">
+                <label for="pizza-size">Pizza size</label>
+            </form>
+        </div>
+        <!-- <p2>In this section you can either select a pizza with either a stuffed,cracked,flat,thin <br>or a cheeze crust depending on the size you
             want either small,medium or large.<br>Then select the topping you want on your pizza and place your order.On
             delivery your pizza should look <br>similar to one in the fully baked section
         </p2>
         <div class="selection-container">
             <p4>1.Choose a size</p4>
-            <form action="/action_page.php" class="f1">
+            <form action="/action_page.php" id="ps" class="f1" >
             <label for="small">small</label>
-            <input type="checkbox" id="small" name="small" value="1">
+            <input type="checkbox" id="small" name="small" value="small">
             <label id="md" for="small"> 1$</label><br>
             <label for="medium">medium</label>
             <input type="checkbox" id="medium" name="medium" value="2">
@@ -145,11 +148,18 @@
             <input class="btn btn-dark" type="button" value="Add To Cart">
 
             </div>
+            <div>
+                <ul id="o-summary">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
             
          </div>
          
          
-    </div>
+    </div> -->
     <div id="contact">
         <p5>GET IN TOUCH</p5><br>
         <p6>Hey We are looking foward to<br> recive more orders from you!</p6>

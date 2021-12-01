@@ -187,10 +187,11 @@ p1{
     opacity:1;
 }
 #pizza{
-    background-color: rgb(207, 155, 155);
-    height: 80vh;
+    background-color: aqua;
+    height: 60vh;
 }
-h5{
+
+/*h5{
     position: relative;
     display: flex;
     justify-content: center;
@@ -211,7 +212,7 @@ section-1{
     margin-top: 40px;
     /* width: 20px; */
     /* background-color: rgb(133, 68, 68); */
-    left: 30px;
+    /*left: 30px;
 }
 
 
@@ -229,7 +230,7 @@ section-2{
 p4{
     position: relative;
     /* margin-left: 390px; */
-    top: 30px;
+    /*top: 30px;
     justify-content: center;
     display: flex;
 }
@@ -282,7 +283,7 @@ form{
     color: white;
     height: 3rem;
     font-size: 15px;
-}
+}*/
 #contact{
     background-color: rgb(139, 62, 62);
     height: 20rem;
@@ -311,6 +312,7 @@ p6{
     bottom: 270px;
    left: 350px;
     border-radius: 5px;
+    justify-content: flex-end;
 }
 p7{
     display: flex;
